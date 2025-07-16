@@ -115,6 +115,18 @@ jobs:
 
     - name: Build and test with Maven
       run: mvn clean verify
+
+    - name: Upload JaCoCo report
+      uses: actions/upload-artifact@v4
+      with:
+        name: jacoco-report
+        path: target/site/jacoco/
+
+    - name: Upload Surefire report
+      uses: actions/upload-artifact@v4
+      with:
+        name: surefire-report
+        path: target/site/surefire-report.html
 ```
 
 2. Fai commit e push:
@@ -202,6 +214,7 @@ Apri `target/site/jacoco/index.html`.
 mvn test                      # solo test
 mvn verify                   # test + coverage
 mvn surefire-report:report   # report HTML test
+mvn clean verify surefire-report:report   # tutto insieme
 ```
 
 ---
