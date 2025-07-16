@@ -1,4 +1,11 @@
 
+
+# Stato progetto
+
+![Java CI](https://github.com/micheleminno/java-testing-example/actions/workflows/ci.yml/badge.svg)
+
+
+
 # 🧪 Testing Java con Maven, JUnit, GitHub Actions, Report e Code Coverage
 
 ## PARTE 1 – Scrivere ed eseguire test JUnit con Maven
