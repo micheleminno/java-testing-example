@@ -12,8 +12,7 @@ surefire-reports/
 jacoco.exec
 
 #target files
-target/
-*/target/**
+/target/ 
 
 # User-specific files
 *.rsuser
