@@ -6,6 +6,15 @@
 #Mac files
 *.DS_Store
 
+#Tests files
+maven-status/
+surefire-reports/
+jacoco.exec
+
+#target files
+target/
+*/target/**
+
 # User-specific files
 *.rsuser
 *.suo
