@@ -12,4 +12,9 @@ class MacchinaEnigmaTest {
     void testCifra() {
         assertEquals("HELLO", macchina.cifra("hello"));
     }
+
+    @Test
+    void testDecifra() {
+        assertEquals("hello", macchina.decifra("HELLO"));
+    }
 }
