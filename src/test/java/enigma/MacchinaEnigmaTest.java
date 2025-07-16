@@ -10,6 +10,6 @@ class MacchinaEnigmaTest {
 
     @Test
     void testCifra() {
-        assertEquals("HeLLO", macchina.cifra("hello"));
+        assertEquals("HELLO", macchina.cifra("hello"));
     }
 }
